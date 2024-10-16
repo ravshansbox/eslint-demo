@@ -1,0 +1,27 @@
+{
+  "name": "eslint-demo",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "~9.12.0",
+    "@types/react": "~18.3.11",
+    "@types/react-dom": "~18.3.1",
+    "eslint": "~9.12.0",
+    "eslint-plugin-import": "~2.31.0",
+    "eslint-plugin-jsx-a11y": "~6.10.0",
+    "eslint-plugin-react": "~7.37.1",
+    "eslint-plugin-react-hooks": "~5.0.0",
+    "prettier": "~3.3.3",
+    "typescript": "~5.5.4",
+    "typescript-eslint": "~8.9.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
